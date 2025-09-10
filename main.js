@@ -1,43 +1,22 @@
-//     return Math.floor(n / 10) + (n % 10);
-// }
-// console.log(integer7(57)); // 12
-//
-// function integer8(n) {
-//     return (n % 10) * 10 + Math.floor(n / 10);
-// }
-// console.log(integer8(57)); // 75
-//
-// function integer9(n) {
-//     return Math.floor(n / 100);
-// }
-// console.log(integer9(345)); // 3
-//
-// function integer10(n) {
-//     return { units: n % 10, tens: Math.floor((n % 100) / 10) };
-// }
-// console.log(integer10(345)); // {units:5, tens:4}
-//
-// function integer11(n) {
-//     return Math.floor(n / 100) + Math.floor((n % 100) / 10) + (n % 10);
-// }
-// console.log(integer11(345)); // 12
-//
-// function integer12(n) {
-//     return (n % 10) * 100 + Math.floor((n % 100) / 10) * 10 + Math.floor(n / 100);
-// }
-// console.log(integer12(345)); // 543
-//
-// function integer13(n) {
-//     return (n % 100) * 10 + Math.floor(n / 100);
-// }
-// console.log(integer13(345)); // 453
-//
-// function integer14(n) {
-//     return (n % 10) * 100 + Math.floor(n / 10);
-// }
-// console.log(integer14(345)); // 534
-//
-// function integer15(n) {
-//     return Math.floor((n % 100) / 10) * 100 + Math.floor(n / 100) * 10 + (n % 10);
-// }
-// console.log(integer15(123)); // 213
+// let L = prompt("sonkirit")
+// let meters = Math.floor(L / 100);
+// console.log("To‘liq metrlar soni:", meters);
+// let M = parseInt(prompt("Og‘irlikni kilogrammda kiriting:"));
+// let tons = Math.floor(M / 1000);
+// console.log("To‘liq tonnalar soni:", tons);
+// let bytes = parseInt(prompt("Fayl hajmini baytlarda kiriting:"));
+// let kilobytes = Math.floor(bytes / 1024);
+// console.log("To‘liq kilobaytlar:", kilobytes);
+// let A = parseInt(prompt("A ni kiriting (A > B):"));
+// let B = parseInt(prompt("B ni kiriting (B < A):"));
+// let count = Math.floor(A / B);
+// console.log("B kesma A kesmada", count, "marta joylashgan");
+// let num = parseInt(prompt("Ikki xonali son kiriting:"));
+// let tens = Math.floor(num / 10);
+// let ones = num % 10;
+// console.log("O‘nliklar:", tens, "Birlar:", ones);
+// let num = parseInt(prompt("Ikki xonali son kiriting:"));
+// let a = Math.floor(num / 10);
+// let b = num % 10;
+// let reversed = b * 10 + a;
+// console.log("Almashtirilgan son:", reversed);
